@@ -6,7 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+     <!--TITLE-->
      <title>Superhero Hunter</title>
 
      <!-- Google fonts -->
@@ -21,7 +21,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
 
      <!-- Custom Stylesheet -->
-     <link rel="stylesheet" href="./css/styles.css">
+     <link rel="stylesheet" href="src/css/styles.css">
 
      <!-- Crypto JS -->
      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
@@ -36,14 +36,14 @@
           <!-- Site Icon and Name -->
           <div class="flex-row navbar-brand">
                <img class="logo" src="./images/mask.gif" alt="">
-               <a href="./index.html">
+               <a href="index.html">
                     <span>Superhero Hunter</span>
                </a>
           </div>
           <!-- Theme Button and Favourites Button -->
           <div class="flex-row favAndTheme-btn">
                <button id="theme-btn" class="btn"><i class="fa-solid fa-moon"></i></button>
-               <a class="flex-row link-to-different-page" href="./favorites.html">
+               <a class="flex-row link-to-different-page" href="favorites.html">
                     <button class="btn fav-btn"> <i class="fa-solid fa-heart fav-icon"></i> &nbsp; Favourites</button>
                </a>
           </div>
@@ -61,7 +61,7 @@
                     <div class="flex-row img-info">
                          <img src="${hero.thumbnail.path+'/portrait_medium.' + hero.thumbnail.extension}" alt="">
                          <div class="hero-info">
-                              <a class="character-info" href="./more-info.html">
+                              <a class="character-info" href="more-info.html">
                                    <span class="hero-name">${hero.name}</span>
                               </a>
                          </div>
@@ -92,7 +92,7 @@
     <img class="bg-img" src="src/images/marvel-superheroes.jpg" alt="" />
 
      <!-- External Script file -->
-     <script src="./js/script.js"></script>
+     <script src="src/js/script.js"></script>
 
 </body>
 

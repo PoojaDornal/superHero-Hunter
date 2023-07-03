@@ -5,7 +5,8 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+     
+    <!--title of the page -->
      <title>Superhero Hunter</title>
 
      <!-- Google fonts -->
@@ -20,8 +21,8 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
 
      <!-- Custom Stylesheet -->
-     <link rel="stylesheet" href="./css/styles.css">
-     <link rel="stylesheet" href="./css/favorites.css">
+     <link rel="stylesheet" href="src/css/styles.css">
+     <link rel="stylesheet" href="src/css/favorites.css">
 </head>
 
 <body>
@@ -30,15 +31,17 @@
      <nav class="flex-row navbar">
           <!-- Site Icon and Name -->
           <div class="flex-row navbar-brand">
-               <img class="logo" src="./images/mask.gif" alt="">
-               <a href="./index.html">
-                    <span>Superhero Hunter</span>
-               </a>
-          </div>
+        <img
+          class="logo"
+          src="https://media.giphy.com/media/TKLdhXUt2S36V1KnA6/giphy.gif"
+          alt=""
+        />
+        <a href="index.html"><span>SuperHero Hunter </span> </a>
+      </div>
           <!-- Theme Button and Favourites Button -->
           <div class="flex-row favAndTheme-btn">
                <button id="theme-btn" class="btn"><i class="fa-solid fa-moon"></i></button>
-               <a class="flex-row link-to-different-page" href="./index.html">
+               <a class="flex-row link-to-different-page" href="index.html">
                     <button class="btn fav-btn"> <i class="fa-solid fa-house"></i> &nbsp; Home</button>
                </a>
           </div>
@@ -54,7 +57,7 @@
                     <span class="comics">Comics : ${character.comics}</span>
                     <span class="series">Series : ${character.series}</span>
                     <span class="stories">Stories : ${character.stories}</span>
-                    <a class="character-info" href="./more-info.html">
+                    <a class="character-info" href="more-info.html">
                          <button class="btn"><i class="fa-solid fa-circle-info"></i> &nbsp; More Info</button>
                     </a>
                     <div style="display:none;">
@@ -80,7 +83,7 @@
 
      <!-- <img id="delete-all-img" src="./images/giphy.gif" alt="" srcset=""> -->
 
-     <script src="./js/favorites.js"></script>
+     <script src="src/js/favorites.js"></script>
 
 </body>
 

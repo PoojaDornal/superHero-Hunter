@@ -297,6 +297,7 @@ input::placeholder {
 .remove-toast {
   background-color: hsl(40, 100%, 61%);
   box-shadow: 0px 0px 3px 3px white;
+  padding-bottom:15px;
 }
 
 /* ------------------------------------------------Media Queries for different screen sizes ----------------------------- */

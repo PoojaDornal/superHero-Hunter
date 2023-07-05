@@ -1,4 +1,4 @@
-# superHero-Hunter
+# SuperHero-Hunter
 <li>This is repository of Superhero-Hunter using Vanilla Javascript, HTML and CSS </li>
 
 # Problem statement - 

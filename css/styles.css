@@ -110,7 +110,11 @@ body {
 
 #theme-btn {
   width: 40px;
- }
+  border-radius: 50px;
+}
+#theme-btn:hover {
+  background-color: #cc99ff;
+}
 
 #theme-btn i {
   font-size: 20px;
@@ -120,7 +124,9 @@ body {
   font-size: 16px;
   width: 140px;
 }
-
+.fav-btn:hover {
+  background-color: #ff99cc;
+}
 .fav-icon {
   color: 1fff;
 }
@@ -146,7 +152,7 @@ body {
 .search-icon-container {
   background: var(--navbar-background-color);
   box-shadow: 0px 0px 7px 0px var(--searchBar-box-shadow);
-  color: #fff;
+  color: black;
   height: 50px;
   width: 50px;
   display: flex;
@@ -165,7 +171,7 @@ body {
 
 #search-bar {
   background: var(--navbar-background-color);
-  color: #fff;
+  color: black;
   min-width: 550px;
   height: 50px;
   font-size: 20px;
@@ -270,7 +276,7 @@ input::placeholder {
   width: 350px;
   color: white;
   letter-spacing: 1px;
-  padding: 15px 20px;
+  padding: 10px 20px;
   z-index: 2;
   text-align: center;
   left: 0;
@@ -297,7 +303,6 @@ input::placeholder {
 .remove-toast {
   background-color: hsl(40, 100%, 61%);
   box-shadow: 0px 0px 3px 3px white;
-  padding-bottom:15px;
 }
 
 /* ------------------------------------------------Media Queries for different screen sizes ----------------------------- */
